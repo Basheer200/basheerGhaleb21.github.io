@@ -1,0 +1,50 @@
+body{
+    /* to get ride of the default settings of the browsers I set 0 for padding and margin */
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(118, 197, 243);
+    height:100vh ;
+    display: flex;
+    justify-content: center;
+}
+
+.bird{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.head{
+   height: 60vh;
+   width: 400px;
+   align-self: flex-end;
+   background-color: black;
+   position: relative;
+   margin: 12em auto 0 auto ;
+   border-radius: 40% 40% 0 0;
+   
+
+}
+
+.bird-eye{
+    position: absolute;
+    background-color: aliceblue;
+    height: 70px;
+    width: 50px;
+    margin: 10em auto auto 15em;
+}
+
+.bird-beak{
+    height: 0;
+    width:0;
+    align-self: flex-end;
+    margin-top: 12em;
+    margin-bottom: 3em;
+    border-top: 90px solid transparent;
+    border-bottom:90px solid transparent;
+    border-left: 90px solid rgb(255, 191, 0);   
+    
+}
