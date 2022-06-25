@@ -1,0 +1,80 @@
+*{
+    /* to get ride of all the default settings  */
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin:10px auto;
+    background-color: azure;
+    
+
+}
+
+ul {
+    list-style: none;
+}
+
+header h1 , h2{
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0px;
+    text-transform: uppercase;
+    
+
+}
+img{
+    width: 100%;
+}
+
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    padding: 5px;
+}
+
+
+.flexbox-list{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.flexbox-item{
+    border: 2px solid black;
+    padding:20px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width:600px) and (max-width:1023px){
+    .flexbox-item{
+        width: 30%;
+    }
+    .flexbox-item:nth-child(1), .flexbox-item:nth-child(2){
+        width: 48%;
+    }
+}
+
+
+
+@media screen and (max-width:600px){
+    .flexbox-item{
+        width: 100%;
+
+    }
+}
+
+@media screen and (min-width:1024px){
+    
+    .flexbox-item{
+        width: 23%;
+    }
+    .flexbox-item:nth-child(1){
+        width: 49.4%;
+    }
+}
