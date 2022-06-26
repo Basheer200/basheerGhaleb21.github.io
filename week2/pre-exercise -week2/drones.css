@@ -39,7 +39,7 @@ h3{
 
 .flexbox-list{
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* wrap property gives responsive design for the flexbox with no need for media queiries */
     justify-content: center;
     margin-right: 30px;
     
@@ -53,13 +53,13 @@ h3{
     justify-content: center;
     border: 2px solid black;
     padding:20px;
-    margin: 15px;
+    /* margin: 15px; */
 }
 
 .grid-list {
     display: grid;
     grid-template-columns: repeat(4 , 2fr);
-    grid-template-rows: minmax( 300px , auto);
+    grid-template-rows: minmax( 300px , auto); /*the default will be 300px but it will strech to fit the content if itb was bigger then 300px*/
     gap: 10px;
    
 }
