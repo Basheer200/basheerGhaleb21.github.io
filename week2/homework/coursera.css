@@ -277,7 +277,7 @@ h3{
 .join-us{
     margin: 100px auto;
     width: 80%;
-    background-image:url(img/c14.jpg);
+    background-image:url("img/c14.jpg");
     background-position: center;
     background-size: cover;
     border-radius: 10px;
